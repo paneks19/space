@@ -1,0 +1,45 @@
+body {
+    /*background-color: lightgray;*/
+    background-image: url("https://bit.ly/32N1aGJ");
+    background-color: lightgray;
+}
+
+header, footer {
+    background-color: darkgray;
+    color: black;
+    text-align: center;
+}
+
+li {
+    border: solid black 1px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 30px;
+    background: rgb(110, 110, 192);
+    color: whitesmoke;
+}
+
+section {
+    background-color: tan;
+    border: navy 2px solid;
+    margin: 15px 15px;
+}
+
+img {
+    border: solid black 2px;
+}
+
+#earth {
+    width: 250px;
+}
+
+.planets {
+    border-radius: 10px;
+    margin: 1%;
+}
+
+p {
+    border: dashed black 2px;
+    display: inline-block;
+    width:750px;
+}
