@@ -37,3 +37,16 @@ function starGazeTime(){
         document.write(starTime);
     }
 }
+
+function marsWeight(){
+    var userWeightEarth = prompt('How many pounds do you weigh on Earth?')
+    if (userWeightEarth % 1 == 0){
+        var userWeightMars = userWeightEarth * (0.376);
+        document.write('Thank you for sharing your personal informatin, it it will not be sold! On Mars you would weigh ' + userWeightMars + ' pounds.')
+        return userWeightEarth;
+    } else {
+        document.write('You have entered an incorrect value and broken my space probe. Once the probe has developed an understanding of Loops you can try again.')
+    }
+    
+}
+
