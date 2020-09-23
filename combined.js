@@ -63,6 +63,28 @@ function marsWeight(){
     
 }
 
+function numberGame(){
+    var correctNumber = 19;
+
+    var userGuess = prompt('Lets play a game. Try to guess the number I am thinking of between 1 and 100. You have 6 tries.');
+
+    for (var i = 0; i < 4; i++){
+        if (userGuess !== '19'){
+            if(userGuess > correctNumber){
+                userGuess = prompt('Try a lower number.');
+            } else {
+                userGuess = prompt ('Try a higher number.');
+            }
+            if(userGuess !== correctNumber && i === 3){
+                alert('You lose.');
+            }
+        } else if(userGuess == '19'){
+            alert('Congradulations you win!');
+            i = 5;
+        }
+    }
+}
+
 
 // Following class 8 video
 
