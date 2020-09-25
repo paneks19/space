@@ -39,7 +39,7 @@ img {
 }
 
 p {
-    border: dashed black 2px;
+    border: solid black 2px;
     display: inline-block;
     width:750px;
 }
