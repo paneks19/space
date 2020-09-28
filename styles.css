@@ -1,12 +1,12 @@
 body {
     /*background-color: lightgray;*/
     background-image: url("https://bit.ly/32N1aGJ");
-    background-color: lightgray;
+    background-color: lightgrey;
 }
 
 header, footer {
     background-color: darkgray;
-    color: black;
+    color: navy;
     text-align: center;
 }
 
